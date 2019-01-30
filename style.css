@@ -44,7 +44,7 @@ input {
 
 @media only screen and (max-width: 1300px) {
     div {
-        margin: 50px 130px 0px 130px;
+        margin: 20px 130px 0px 130px;
     }
     h4 {
         font-size: 1.3em;
@@ -53,7 +53,7 @@ input {
 
 @media only screen and (max-width: 700px) {
     div {
-        margin: 50px 35px 0px 35px;
+        margin: 10px 35px 0px 35px;
         font-size: 10px;
     }
     h4 {
