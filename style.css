@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Baloo Thambi', cursive;
+    margin-top: 70px;
+}
+
+h4 {
+    font-size: 1.9em;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 400px 0px 400px;
+}
+
+span {
+    color: crimson;
+}
+
+#keycode {
+    color: blueviolet;
+}
+
+#charcode {
+    color: darkgreen;
+}
+
+#smartphoneBox {
+    margin-top: 50px;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1300px) {
+    div {
+        margin: 50px 130px 0px 130px;
+    }
+    h4 {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    div {
+        margin: 50px 35px 0px 35px;
+        font-size: 10px;
+    }
+    h4 {
+        font-size: 1em;
+    }
+}
+
