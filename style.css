@@ -23,6 +23,7 @@ div {
 
 span {
     color: crimson;
+    font-size: 50px;
 }
 
 #keycode {
@@ -31,15 +32,6 @@ span {
 
 #charcode {
     color: darkgreen;
-}
-
-#smartphoneBox {
-    margin-top: 50px;
-}
-
-input {
-    border: 2px solid black;
-    border-radius: 5px;
 }
 
 @media only screen and (max-width: 1300px) {
