@@ -14,7 +14,7 @@ addEventListener('keypress', function(event) {
     }    
 })
 
-input.addEventListener('keyup', function(event){
+input.addEventListener('keypress', function(event){
     if (event.which === 0) {
         p.innerHTML = '<p>You pressed <span>' + event.key + '</span> and it\'s <span id=\'keycode\'>Key Code</span> is <span>' + event.keyCode + '</span></p>';
         var spans = document.getElementsByTagName('span')
